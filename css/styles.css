@@ -1,0 +1,82 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  background-image: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: top;
+  text-align: center;
+  letter-spacing: .3px;
+}
+
+.container {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #4c545d;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 1.78em;
+}
+
+p {
+  color: #9fabb2;
+  font-weight: 400;
+  font-size: .89em;
+  line-height: 1.6;
+}
+
+button {
+  width: 100%;
+  padding: 16px 60px;
+  margin-bottom: 25px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 600;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  font-size: 1em;
+  letter-spacing: .5px;
+  cursor: pointer;
+}
+
+.btn-ios {
+  background-color: #26baa4;
+  border-bottom: 3px solid #20a08d;
+}
+
+.btn-mac {
+  background-color: #6173ff;
+  border-bottom: 3px solid #4b59c3;
+}
+
+.hero {
+  margin-top: 100px;
+}
+
+.hero img {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.hero h1 {
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=styles.css.map */
