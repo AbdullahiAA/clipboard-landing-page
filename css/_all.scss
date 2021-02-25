@@ -27,6 +27,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 1.78em;
+    font-weight: 600;
 }
 
 h2 {
@@ -44,6 +45,33 @@ p {
     line-height: 1.6;
     margin-bottom: 50px;
 }
+
+@media screen and (min-width: 720px) {
+    .hero, .functionality__header, .accessibility, .download {
+        p {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .hero, .functionality__header, .accessibility, .download {
+        p {
+            width: 75%;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero, .functionality__header, .accessibility, .download {
+        p {
+            width: 50%;
+        }
+    }
+}
+
 
 a {
     text-decoration: none;
@@ -74,4 +102,19 @@ button {
 .btn-mac {
     background-color: $lightBlue;
     border-bottom: 3px solid hsl(233, 50%, 53%);
+}
+
+@media screen and (min-width: 580px) {
+    .download-btn {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+
+        button {
+            width: initial;
+            padding: 16px 40px;
+        }
+    }
 }

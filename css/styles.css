@@ -34,6 +34,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 1.78em;
+  font-weight: 600;
 }
 
 h2 {
@@ -50,6 +51,26 @@ p {
   font-size: .89em;
   line-height: 1.6;
   margin-bottom: 50px;
+}
+
+@media screen and (min-width: 720px) {
+  .hero p, .functionality__header p, .accessibility p, .download p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .hero p, .functionality__header p, .accessibility p, .download p {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero p, .functionality__header p, .accessibility p, .download p {
+    width: 50%;
+  }
 }
 
 a {
@@ -82,14 +103,73 @@ button {
   border-bottom: 3px solid #4b59c3;
 }
 
+@media screen and (min-width: 580px) {
+  .download-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .download-btn button {
+    width: initial;
+    padding: 16px 40px;
+  }
+}
+
 .hero img {
   margin-top: 20px;
   margin-bottom: 60px;
 }
 
+@media screen and (min-width: 720px) {
+  .hero h1 {
+    font-size: 2em;
+  }
+}
+
 .functionality img {
   width: 100%;
   margin-bottom: 50px;
+}
+
+@media screen and (min-width: 720px) {
+  .functionality__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 70px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .functionality__body img {
+    width: 70%;
+    margin-bottom: initial;
+    margin-left: -120px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .functionality__body aside {
+    text-align: left;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
 }
 
 .accessibility {

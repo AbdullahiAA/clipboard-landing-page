@@ -1,16 +1,14 @@
 .hero {
-
     img {
         margin-top: 20px;
         margin-bottom: 60px;
     }
+}
 
-    h1 {
-        // margin-bottom: 1rem;
+@media screen and (min-width: 720px) {
+    .hero {
+        h1 {
+            font-size: 2em;
+        }
     }
-
-    p {
-        // margin-bottom: 50px;
-    }
-
 }

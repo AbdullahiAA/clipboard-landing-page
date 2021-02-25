@@ -6,3 +6,26 @@
     }
 
 }
+
+
+@media screen and (min-width: 720px) {
+    .functionality__body {
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+        align-items: center;
+
+
+        img {
+            width: 70%;
+            margin-bottom: initial;
+            margin-left: -120px;
+            flex: 1;
+        }
+
+        aside {
+            text-align: left;
+            flex: 1;
+        }
+    }
+}
