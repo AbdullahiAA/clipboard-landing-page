@@ -172,6 +172,12 @@ button {
   }
 }
 
+@media screen and (min-width: 920px) {
+  .functionality__body {
+    gap: 100px;
+  }
+}
+
 .accessibility {
   margin-top: 180px !important;
 }
