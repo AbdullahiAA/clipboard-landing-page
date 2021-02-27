@@ -1,12 +1,15 @@
 .used-by .container {
     display: flex;
     flex-direction: column;
-    // justify-content: center;
     align-items: center;
     gap: 60px;
     margin-bottom: 150px;
+}
 
-    // img {
-        // width: 50%;
-    // }
+@media screen and (min-width: 720px) {
+    .used-by .container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }

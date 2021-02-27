@@ -8,3 +8,14 @@
         }
     }
 }
+
+@media screen and (min-width: 720px) {
+    .productivity aside {
+        display: flex;
+        gap: 50px;
+
+        div {
+            flex: 1;
+        }
+    }
+}

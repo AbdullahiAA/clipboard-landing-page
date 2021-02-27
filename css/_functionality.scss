@@ -1,10 +1,8 @@
 .functionality {
-
     img {
         width: 100%;
         margin-bottom: 50px;
     }
-
 }
 
 
@@ -15,17 +13,20 @@
         gap: 70px;
         align-items: center;
 
-
         img {
             width: 70%;
             margin-bottom: initial;
-            margin-left: -120px;
+            margin-left: -165px;
             flex: 1;
         }
 
         aside {
             text-align: left;
             flex: 1;
+
+            div {
+                width: 85%;
+            }
         }
     }
 }
